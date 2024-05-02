@@ -1,15 +1,14 @@
 {
   "name": "react-app",
-  "homepage": "https://kanishku.github.io/LuminaLanceproject/",
+  
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-     "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
+   
   },
   "dependencies": {
     "@stripe/react-stripe-js": "^1.16.4",
